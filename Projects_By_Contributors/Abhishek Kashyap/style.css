@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap'); 
+ 
+body { 
+  text-align: center; 
+  font-family: 'Rajdhani', sans-serif; 
+  background-color: #f0f0f0; 
+  margin: 55px; 
+  padding: 0; 
+} 
+ 
+.container { 
+  padding: 10px; 
+  width: 80%; 
+  margin: 0 auto; 
+  background-color: #ffffff; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+} 
+ 
+#userInput { 
+  padding: 10px; 
+  font-size: 16px; 
+  border: none; 
+  background-color: #f2f2f2; 
+  color: #333; 
+  margin-bottom: 15px; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  width: 100%; 
+} 
+ 
+button { 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  background-color: #49afd4; 
+  color: #fff; 
+  margin: 5px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+} 
+ 
+button:hover { 
+  background-color: #0056b3; 
+} 
+ 
+#output { 
+  text-align: left; 
+  padding: 20px; 
+} 
+ 
+ 
+.heroContainer { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px; 
+    text-align: left; 
+} 
+ 
+ 
+.heroImg { 
+    max-width: 25%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-right: 20px; 
+} 
+ 
+.heroName { 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+} 
+ 
+.heroStats { 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+.stat { 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+} 
+ 
+.statEmoji { 
+    font-size: 20px; 
+    margin-right: 5px; 
+} 
+ 
+.statName { 
+    font-weight: bold; 
+} 
+ 
+.statValue { 
+    margin-left: 5px; 
+} 
+ 
+ 
+ 
+ 
+ /* Style for the loading spinner container */ 
+ .loading-container { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 40vh; 
+  top:40vh; 
+} 
+ 
+/* Style for the loading spinner */ 
+.loading-spinner { 
+   
+  border: 4px solid #f3f3f3; 
+  border-top: 4px solid #3498db; 
+  border-radius: 50%; 
+  width: 40px; 
+  height: 40px; 
+  animation: spin 2s linear infinite; 
+} 
+ 
+/* CSS animation for spinning */ 
+@keyframes spin { 
+  0% { transform: rotate(0deg); } 
+  100% { transform: rotate(360deg); } 
+}
+
