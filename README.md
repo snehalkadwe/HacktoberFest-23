@@ -12,6 +12,7 @@
 
 ## Getting Started 🤩🤗:
 
+- Raise an Issue under hacktoberfest , hacktoberfest-accepted
 - Fork this repo (button on top)
 - Clone on your local machine
 
