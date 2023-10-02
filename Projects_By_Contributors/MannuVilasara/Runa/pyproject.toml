@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "runa"
+version = "0.1.0"
+description = ""
+authors = ["Mannu <mannuvilasara@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+python-dotenv = "^1.0.0"
+nextcord = "^2.5.0"
+aiosqlite = "^0.19.0"
+humanfriendly = "^10.0"
+wavelink = "^2.6.3"
+nextcordutils = "^1.0"
+function-cooldowns = "^2.0.0"
+pysqlite3 = "^0.5.1"
+easy-pil = "^0.3.0"
+pymongo = "^4.4.1"
+
+
+[tool.poetry.group.dev.dependencies]
+py-mon = "^1.1.0"
+colorama = "^0.4.6"
+watchdog = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,10 @@
+python-dotenv~=0.17.0
+nextcord
+aiosqlite
+humanfriendly
+easy-pil
+wavelink
+nextcordutils
+function-cooldowns
+pysqlite3
+pymongo
