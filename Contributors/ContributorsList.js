@@ -14,9 +14,4 @@ contributors = [
       fullname: "Mannu Vilasara",
       username: "https://github.com/MannuVilasara",
     }
-    {
-      id: 5,
-      fullname: "Priyanshu Singh",
-      username: "https://github.com/Priyanshu-su30",
-    }
 ];
